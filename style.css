@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Rancho|Permanent+Marker|Enriqueta|Hind+Vadodara|Quicksand|Raleway|Rasa");
+
+h1 {
+  font-family: Rancho, sans-serif;
+  font-size: 5em;
+  text-shadow: 1.5px 1.5px #666; }
+
+h2 {
+  font-family: Rancho, sans-serif;
+  font-size: 3.67em;
+  text-shadow: 1.5px 1.5px #C3A942; }
+
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1;
+}
+h5 {
+    font-size: .9em;
+    font-style: italic; 
+    font-weight: 700;
+    margin: -25px 0 0 0;
+}
+
+
+body {
+    font-family: Quicksand, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.navbar-nav {
+    float:none;
+    margin: 0 auto;
+    display: block;
+    text-align: center; 
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+    padding-top: 25px;
+    font-family: Quicksand, sans-serif;
+}
+
+.navbar-default {
+    border-radius: 0;
+    border-width: 0 0 1.3px 0;
+    border-color: #FFD52E;
+    background-color: #fff;
+}
+
+.welcome-box {
+  background-color: rgba(50, 50, 50, 0);
+  position: relative;
+  top: 150px;
+  z-index: 1;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  padding: 14px 14px 24px 14px; }
+
+.welcome-msg {
+  text-align: center;
+  color: white;
+  text-shadow: 0.8px 0.8px #666;
+}
+
+.title {
+    text-align: center;
+    padding: 90px 10% 30px 10%;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 20px 10% 10px 10%;
+}
+.footer {
+    text-align: center;
+    padding: 20px 10% 20px 10%;
+}
+
+.container {
+    width: auto;
+}
+
+
+.profile {
+    display: block;
+    border-radius: 100%;
+    border: 1.5px solid #FFD52E;
+    max-width: 300px;
+    margin: auto;
+    padding: 0;
+}
+
+.blurb-box {
+    display: block;
+    padding: 40px 20%;
+    text-align: justify;
+    line-height: 1.45em;
+}
+ 
+
+.overlay-container {
+    padding: 40px 10px 10px 10px;
+    
+}
+
+.overlay {
+    display: block;
+    width: 60%;
+    background-color: rgba(256, 256, 256, .85);
+    border: 2px solid #FFD52E;
+    border-radius: 5px;
+    margin: 40px 20% 0 20%;
+}
+
+.table-left {
+    text-align: center;
+    width: 40%;
+    padding: 20px 0 40px 10%;
+    vertical-align: middle;  
+}
+
+.table-right {
+    text-align: center;
+    width: 44%;
+    padding: 20px 4% 40px 2%;
+    vertical-align: middle;
+}
+
+.logo {
+    max-width: 200px;
+    padding: 0 0 5% 0;
+}
+
+.columns {
+    padding: 20px 10% 20px 10%;
+}
+
+article {
+  -webkit-columns: 2 250px;
+     -moz-columns: 2 250px;
+          columns: 2 250px;
+    margin: 0 0 0 -35px;
+}
+
+li {
+    padding: 0 0 5px 0;
+    list-style: none;
+    text-align: center;
+}
+.li-break {
+    color: #FFD52E;
+}
+
+.medium-post {
+    display: block;
+    padding: 20px 5% 36px 5%;
+    width: 60%;
+    margin: 40px 20% 20px 20%;
+    border: 1px solid #FFD52E;
+    border-radius: 5px;
+    text-align: center;
+}
+.medium-img {
+    max-width: 100%;
+    padding: 20px 0 0 0;
+}
+.medium-caption {
+    font-size: .9em;
+}
+
+.basic-box {
+    text-align: center;
+    padding: 0px 10% 0px 10%;
+}
+
+.contact-box {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    border: 1.2px solid #FFD52E;
+    width: 60%;
+    border-radius: 5px;
+    margin: -10px 20% 20px 20%;
+}
+
+#work-title {
+    padding-top: 65px;
+    color: #FFF;
+    font-size: 1.4em;
+    text-shadow: 1px 1px #111;
+}
+
+#words-title {
+    margin: 45px 0 0 0;
+    font-size: 1.4em;
+}
+
+#home {
+    height: 800px;
+    background: url("images/yellow-wall%20(1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: -20px 0 0 0;
+}
+
+#welcome {
+    margin: -20px 0 0 0;
+}
+#work {
+    
+    background: url("images/yellow-street.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#words {
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+    .blurb-box {
+        padding: 30px 10%;
+        text-align: left;
+    }
+    table, td, tr, th {
+        display: inline-block;
+        width: 100%;
+    }
+    .table-left {
+        width: 100%;
+        padding: 10px 5% 0px 5%;
+        vertical-align: bottom; 
+    }
+    
+    .table-right {
+        width: 100%;
+        padding: 0px 5% 40px 5%;
+        vertical-align: top;
+    }
+
+    
+    article {
+  -webkit-columns: 1 200px;
+     -moz-columns: 1 200px;
+          columns: 1 200px;
+    }
+    .medium-post {
+        font-size: 1em;
+    }
+    .overlay {
+        margin: -40px;
+    }
+    .contact-box {
+        width: 80%;
+        margin: -10px 10% 20px 10%;
+        padding: 2%;
+    }
+    .overlay, .medium-post {
+        width: 80%;
+        margin: 30px 10% 20px 10%
+    }
+    .footer {
+    padding: 20px 1px 20px 1px ;
+    }
+}
