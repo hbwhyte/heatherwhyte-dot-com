@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Rancho|Permanent+Marker|Enriqueta|Hind+Vadodara|Quicksand|Raleway|Rasa");
 
 h1 {
-  font-family: Rancho, sans-serif;
-  font-size: 5em;
-  text-shadow: 1.5px 1.5px #666; }
+    font-family: Rancho, sans-serif;
+    font-size: 5em;
+    text-shadow: 1.5px 1.5px #666; }
 
 h2 {
-  font-family: Rancho, sans-serif;
-  font-size: 3.67em;
-  text-shadow: 1.5px 1.5px #C3A942; }
+    font-family: Rancho, sans-serif;
+    font-size: 3.67em;
+    text-shadow: 1.5px 1.5px #C3A942; }
 
 
 h3 {
     font-size: 2em;
     text-align: center;
     font-weight: bold;
-    
+
 }
 h4 {
     font-size: 1.2em;
@@ -34,7 +34,7 @@ body {
     font-family: Quicksand, sans-serif;
     font-size: 18px;
     font-weight: 500;
-    
+
 }
 
 .navbar-nav {
@@ -59,20 +59,20 @@ body {
 }
 
 .welcome-box {
-  background-color: rgba(50, 50, 50, 0);
-  position: relative;
-  top: 150px;
-  z-index: 1;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  border-radius: 0px;
-  padding: 14px 14px 24px 14px; }
+    background-color: rgba(50, 50, 50, 0);
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    padding: 14px 14px 24px 14px; }
 
 .welcome-msg {
-  text-align: center;
-  color: white;
-  text-shadow: 0.8px 0.8px #666;
+    text-align: center;
+    color: white;
+    text-shadow: 0.8px 0.8px #666;
 }
 
 .title {
@@ -109,11 +109,11 @@ body {
     text-align: justify;
     line-height: 1.45em;
 }
- 
+
 
 .overlay-container {
     padding: 40px 10px 10px 10px;
-    
+
 }
 
 .overlay {
@@ -149,9 +149,9 @@ body {
 }
 
 article {
-  -webkit-columns: 2 250px;
-     -moz-columns: 2 250px;
-          columns: 2 250px;
+    -webkit-columns: 2 250px;
+    -moz-columns: 2 250px;
+    columns: 2 250px;
     margin: 0 0 0 -35px;
 }
 
@@ -196,6 +196,19 @@ li {
     margin: -10px 20% 20px 20%;
 }
 
+.one-page {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skull-gif {
+    max-width: 50%;
+    max-height: 50%
+}
+
 #work-title {
     padding-top: 65px;
     color: #FFF;
@@ -221,7 +234,7 @@ li {
     margin: -20px 0 0 0;
 }
 #work {
-    
+
     background: url("images/yellow-street.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,10 +244,15 @@ li {
     margin: auto;
 }
 
+#skulls {
+    background-color: black;
+}
+
+
 @media screen and (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
+    body {
+        font-size: 16px;
+    }
     .blurb-box {
         padding: 30px 10%;
         text-align: left;
@@ -248,18 +266,18 @@ li {
         padding: 10px 5% 0px 5%;
         vertical-align: bottom; 
     }
-    
+
     .table-right {
         width: 100%;
         padding: 0px 5% 40px 5%;
         vertical-align: top;
     }
 
-    
+
     article {
-  -webkit-columns: 1 200px;
-     -moz-columns: 1 200px;
-          columns: 1 200px;
+        -webkit-columns: 1 200px;
+        -moz-columns: 1 200px;
+        columns: 1 200px;
     }
     .medium-post {
         font-size: 1em;
@@ -277,6 +295,6 @@ li {
         margin: 30px 10% 20px 10%
     }
     .footer {
-    padding: 20px 1px 20px 1px ;
+        padding: 20px 1px 20px 1px ;
     }
 }
